@@ -979,7 +979,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 5px 15px rgba(131, 25, 183, 0.3);
+box-shadow: 0 5px 15px rgba(90, 112, 124, 0.3);
     opacity: 0;
     visibility: hidden;
     transform: translateY(20px);
@@ -1018,3 +1018,4 @@ body {
     background: #C0B19B;
 
 }
+
