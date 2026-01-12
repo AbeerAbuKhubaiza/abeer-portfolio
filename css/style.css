@@ -45,7 +45,7 @@ body {
 /* Hero Section  */
 .hero-section {
     position: relative;
-    background: url('/images/bg1.svg') no-repeat center center/cover;
+    background: url('../images/bg1.svg') no-repeat center center / cover;
     min-height: 100vh;
     padding-top: 70px;
     overflow: hidden;
@@ -1016,4 +1016,5 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #C0B19B;
+
 }
