@@ -1074,14 +1074,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    .hero-section {
-        padding-top: 0;
-    }
-
-    .hero-img {
-        margin-top: 0;
-    }
-
     .desktop-text {
         display: none;
     }
@@ -1105,3 +1097,4 @@ body {
         padding: 0 10px;
     }
 }
+
