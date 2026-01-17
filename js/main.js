@@ -100,7 +100,7 @@ form.addEventListener("submit", function (event) {
 
       console.log("FAILED...", error);
       btn.innerText = oldText;
-    }
+    },
   );
 });
 
