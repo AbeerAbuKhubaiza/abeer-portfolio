@@ -9,13 +9,16 @@ body {
     overflow-x: hidden;
 }
 
+.mobile-text {
+    display: none;
+}
+
 /* Navbar  */
 .navbar {
     padding: 0;
     padding-top: 20px;
     transition: all 0.3s ease;
 }
-
 
 .nav-logo {
     height: 50px;
@@ -192,7 +195,7 @@ body {
 
     .hero-section {
         height: auto;
-        padding-top: 100px;
+        /* padding-top: 100px; */
         padding-bottom: 60px;
         text-align: center;
         display: block;
@@ -1057,4 +1060,48 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #C0B19B;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .description-text {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding-top: 0;
+    }
+
+    .hero-img {
+        margin-top: 0;
+    }
+
+    .desktop-text {
+        display: none;
+    }
+
+    .buttons-wrapper {
+        margin-top: 20px;
+    }
+
+    .mobile-text {
+        display: block;
+        text-align: center;
+        line-height: 1.7;
+        padding: 0 12px;
+    }
+
+    .description-text {
+        max-width: 320px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.8;
+        padding: 0 10px;
+    }
 }
